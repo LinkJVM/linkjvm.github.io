@@ -17,7 +17,7 @@
 			<h2>Java on the KIPR Link</h2>
 			<hr>
 			<div id="nav">
-				<a href="https://github.com/kleiinnn/LinkJVM/">Repository</a><a href="./get_started.html">Get Started</a><a href="http://files.mklein.co.at/LinkJVM/doc">Documentation</a>
+				<a href="http://linkjvm.github.io/" id="nav-active">Home</a><a href="https://github.com/kleiinnn/LinkJVM/">Repository</a><a href="./get_started.html">Get Started</a><a href="http://files.mklein.co.at/LinkJVM/doc">Documentation</a>
 			</div>
 			<hr>
 		</header>
@@ -26,23 +26,27 @@
 			<p>LinkJVM is a Java Environment of the <a href="http://www.kipr.org/products/link/">KIPR Link</a> and allows the execution of very Java language and acually very JVM supported language such as Scala and Javascript (over <a href="https://developer.mozilla.org/en/docs/Rhino">Rhino</a>).</p>
 		
 			<h2>Getting LinkJVM</h2>
-			<h3>Link Firmware Version >= 2.0</h3>
-			<p>If you hava a LinkJVM firmware version 2.0 or higher you can directly start developing, LinkJVM is already pre-installed.</p>
-			<h3>Link Firmware Version < 2.0</h3>
-			<p>The easiest way is to update you firmware ;-). If you do not want to update you firmware, follow the following instuctions:</p>
-			<p>#TODO</p>
+			<div class="sub-section">
+				<h3>Link Firmware Version >= 2.0</h3>
+				<p>If you hava a LinkJVM firmware version 2.0 or higher you can directly start developing, LinkJVM is already pre-installed.</p>
+				<h3>Link Firmware Version < 2.0</h3>
+				<p>The easiest way is to update you firmware ;-). If you do not want to update you firmware, follow the following instuctions:</p>
+				<p>#TODO</p>
+			</div>
 
 			<h2>Java?</h2>
-			<h4>Why is the opportunity to program the robot in Java important?</h4>
-			<ul>
-				<li>First, the most students in school get started in programming using Java, so they should be able to use the learned skills in botball.</li>
-				<li>Java provides automatic garbage collection and an excellent set of basic data types like lists, maps and so on.</li>
-				<li>Compared to C Java has a much better maintainability especially in very large libraries because of object orientation.</li>
-			</ul>
-			<h4>Isn´t Java much slower than C?</h4>
-			<p>No, not much. Of course is Java slower the C, but not that much. In another way: For normal usage it won´t make a difference.</p>
-			<h4>So are there Benchmarks?</h4>
-			<p>No, I have not had the time to generate benchmark for LinkJVM yet, but I plan to make one.</p>
+			<div class="sub-section">
+				<h4>Why is the opportunity to program the robot in Java important?</h4>
+				<ul>
+					<li>First, the most students in school get started in programming using Java, so they should be able to use the learned skills in botball.</li>
+					<li>Java provides automatic garbage collection and an excellent set of basic data types like lists, maps and so on.</li>
+					<li>Compared to C Java has a much better maintainability especially in very large libraries because of object orientation.</li>
+				</ul>
+				<h4>Isn´t Java much slower than C?</h4>
+				<p>No, not much. Of course is Java slower the C, but not that much. In another way: For normal usage it won´t make a difference.</p>
+				<h4>So are there Benchmarks?</h4>
+				<p>No, I have not had the time to generate benchmark for LinkJVM yet, but I plan to make one.</p>
+			</div>
 			
 			<h2>Robot Library</h2>
 			<p>LinkJVM provides a huge Libray for controlling the robot(reading analog and digital sensor values, controlling motors and servos, ...). This library is acually only a wrapper library for the in native c written <a href="https://github.com/kipr/libkovan">libkovan</a>.</p>
